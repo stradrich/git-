@@ -1,0 +1,13 @@
+.todo-form {
+    padding: 50px;
+    background-color: orange;
+    border: 1px solid black;
+    width: 200px;
+}
+
+button {
+    background-color: aqua;
+    color: grey;
+    border-color: aqua;
+    border-radius: 5px;
+}
