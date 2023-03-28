@@ -4,15 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capstone Git</title>
-    <link rel="stylesheet" href="/style.css">
+    <meta name="keywords" content="todo app">
+    <meta name="author" content="Aldrich">
+    <title>My To Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
-    <form class="todo-form"action="">
-        <label for=""Todo list:></label>
-        <input type="text" placeholder="fill me up...">
-        <button>submit</button>
+    <h1>My To Do List | Git</h1>
+    <form class="form">
+        <label for="">Keep me productive!</label>
+        <input type="text" name="inputText" id="inputText" placeholder="Fill me up!">
+        <button id="addBtn" type="button">Add</button>
     </form>
+
+    <ul class="displayText">
+        <div class="displayTextResult">
+            <!-- <li>HTML</li> -->
+            <!-- <button class="complete">Complete</button>
+            <button class="delete">Delete</button> -->
+        </div>
+
+    <ul class="displayResult">
+        <!-- <div class="displayTextResult">
+            <li class="displayText">HTML</li>
+            <button class="completeBtn done">Complete</button>
+            <button class="deleteBtn" style="color:white;height:10px;width:10px;">Delete</button>
+        </div> -->
+    </ul>
+
    
 </body>
 </html>
